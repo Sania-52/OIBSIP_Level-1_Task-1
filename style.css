@@ -1,0 +1,344 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+*{
+    margin: 0;
+    padding-left: 0px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+section .First{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #025ec6;
+}
+header{
+    position: absolute;
+    background-color: rgb(3, 18, 221);
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 3cm;
+    padding: 10px 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+header.logo{
+    position: relative;
+    border: #ffffff;
+}
+header ul{
+    position: relative;
+    display: flex;
+}
+header ul li{
+    list-style: none;
+}
+header ul li a{
+    display: inline-block;
+    color: white;
+    font-weight: 400;
+    margin-left: 40px;
+    text-decoration: underline;
+}
+.context{
+    margin-top: 200px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.context .TextBox{
+    position: relative;
+    max-width: 600px;
+}
+.context .TextBox h2{
+    font-size: 3em;
+    color: black;
+    line-height: 1.4em;
+    font-weight: 500;
+} 
+.context .TextBox h2 span{
+    color :rgb(2, 102, 252);;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+.context .TextBox p{
+    color: black;
+    font-size: 1.3em;
+}
+.context .TextBox a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: rgb(2, 102, 252);
+    color: #fff;
+    border-radius: 40px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+.context .Image{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    margin-top: 50px;
+}
+.context .Image img{
+    max-width: 750px;
+    border-radius: 10px;
+}
+.main{
+    position: absolute;
+    left: 50%;
+    bottom: 20px;
+    transform: translate(-50%);
+    display: flex;
+}
+.main li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.main li:hover{
+    transform: translate(-15px);
+}
+.main li img{
+    max-width: 60px;
+}
+
+body{
+	line-height: 1.5;
+	font-family: 'Poppins', sans-serif;
+}
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+.container{
+	max-width: 1170px;
+	margin:auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+ul{
+	list-style: none;
+}
+
+section .Second{
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: #3569f8;
+}
+.context2{
+    margin-top: 200px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.context2 .TextBox2{
+    position: absolute;
+    right: 0px;
+    padding: 10px;
+    max-width: 600px;
+}
+.context2 .TextBox2 h2{
+    font-size: 4em;
+    color: black;
+    line-height: 1.4em;
+    font-weight: 350;
+} 
+.context2 .TextBox2 h2 span{
+    color :rgb(2, 102, 252);;
+    font-size: 1.2em;
+    font-weight: 450;
+}
+.context2 .TextBox2 p{
+    color: black;
+    font-size: 1.3em;
+}
+.context2 .TextBox2 a{
+    display: inline-block;
+    margin-top: 20px;
+    margin-right: 10px;
+    padding: 8px 20px;
+    background: rgb(2, 102, 252);
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+.context2 .Image{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    margin-right: 450px;
+    margin-top: 50px;
+}
+.context2 .Image img{
+    max-width: 900px;
+}
+
+
+section .Third{
+    position: relative;
+    margin-top: 30px;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: #3569f8;
+}
+.context3{
+    margin-top: 150px;
+    position: relative;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.context3 .TextBox3{
+    position: relative;
+    max-width: 600px;
+}
+.context3 .TextBox3 h2{
+    font-size: 3em;
+    color: black;
+    line-height: 1.4em;
+    font-weight: 450;
+}
+.context3 .TextBox3 h2 span{
+    color :rgb(2, 102, 252);;
+    font-size: 1.2em;
+    font-weight: 500;
+}
+.context3 .TextBox3 p{
+    color: black;
+    font-size: 1.3em;
+}
+.context3 .TextBox3 a{
+    display: inline-block;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: rgb(2, 102, 252);
+    color: #fff;
+    border-radius: 30px;
+    font-weight: 300;
+    letter-spacing: 1px;
+    text-decoration: underline;
+}
+.context3 .Image{
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    padding-right: 10px;
+    margin-top: 50px;
+}
+.context3 .Image img{
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+/*footer*/
+
+.footer{
+    margin-top: 50px;
+	background-color: rgb(3, 18, 221);
+    padding: 70px 0;
+}
+.footer-col{
+   width: 25%;
+   padding: 0 15px;
+}
+.footer-col h4{
+	font-size: 18px;
+	color: #ffffff;
+	text-transform: capitalize;
+	margin-bottom: 35px;
+	font-weight: 500;
+	position: relative;
+}
+.footer-col h4::before{
+	content: '';
+	position: absolute;
+	left:0;
+	bottom: -10px;
+	background-color: red;
+	height: 2px;
+	box-sizing: border-box;
+	width: 50px;
+}
+.footer-col ul li:not(:last-child){
+	margin-bottom: 10px;
+}
+.footer-col ul li a{
+	font-size: 16px;
+	text-transform: capitalize;
+	color: #ffffff;
+	text-decoration: none;
+	font-weight: 300;
+	color: #bbbbbb;
+	display: block;
+	transition: all 0.3s ease;
+}
+.footer-col ul li a:hover{
+	color: #ffffff;
+	padding-left: 8px;
+}
+.footer-col .social-links a{
+	display: inline-block;
+	height: 40px;
+	width: 40px;
+	background-color: rgba(255,255,255,0.2);
+	margin:0 10px 10px 0;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 50%;
+	color: #ffffff;
+	transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover{
+	color: #24262b;
+	background-color: #ffffff;
+}
+
+/*responsive*/
+@media(max-width: 767px){
+  .footer-col{
+    width: 50%;
+    margin-bottom: 30px;
+}
+}
+@media(max-width: 574px){
+  .footer-col{
+    width: 100%;
+}
+}
+/*Copyright*/
+p1{
+    color: #fff;
+    display: block;
+    background-color: rgb(3, 18, 221);
+    text-align: center;
+}
